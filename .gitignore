@@ -1,0 +1,18 @@
+# Gradle / Android Studio
+.gradle/
+build/
+local.properties
+.idea/
+*.iml
+.DS_Store
+captures/
+.externalNativeBuild/
+.cxx/
+
+# Web editor
+web-editor/node_modules/
+web-editor/dist/
+web-editor/.env.local
+
+# Built editor bundle (npm run build:android)
+app/src/main/assets/editor/
