@@ -37,7 +37,7 @@ npm run build:android
 
 `npm run build:android` runs `vite build` and copies the single-file bundle into `app/src/main/assets/editor/`. The Android build fails with a clear message if that step was skipped.
 
-> **Note:** Set your Polotno API key before building. Create one at [polotno.com/cabinet](https://polotno.com/cabinet), then add `VITE_POLOTNO_KEY=your-key` to `web-editor/.env.local` (or replace the fallback in `App.jsx`). In the cabinet, add `https://appassets.androidplatform.net` to the key's allowed domains – that is the origin the editor runs on inside the app.
+> **Note:** Set your Polotno API key before building. Create one at [polotno.com/login](https://polotno.com/login), then add `VITE_POLOTNO_KEY=your-key` to `web-editor/.env.local` (or replace the fallback in `App.jsx`). in the dashboard, add `https://appassets.androidplatform.net` to the key's allowed domains – that is the origin the editor runs on inside the app.
 
 ## Running the Android app
 

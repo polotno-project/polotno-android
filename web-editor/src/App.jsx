@@ -8,7 +8,7 @@ import { SidePanel } from 'polotno/side-panel';
 import { connectNativeBridge } from './nativeBridge';
 
 const store = createStore({
-  // Create your own key at https://polotno.com/cabinet
+  // Create your own key at https://polotno.com/login
   key: import.meta.env.VITE_POLOTNO_KEY || 'YOUR_API_KEY',
   showCredit: true,
 });
